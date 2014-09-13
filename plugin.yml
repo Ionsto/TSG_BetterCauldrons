@@ -1,29 +1,3 @@
-name: TSG_Hunger
+name: TSG_BetterCauldrons
 version: 1
-main: HungerBox.HungerBox
-commands:
-   HungerStart:
-      description: This starts the game
-      usage: /<HungerStart>
-      permission: <TSG_Hunger>.HungerStart
-      permission-message: You don't have <permission>
-   HungerStartSize:
-      description: This sets the start game size
-      usage: /<HungerStartSize> <X size> <Z size>
-      permission: <TSG_Hunger>.HungerStartSize
-      permission-message: You don't have <permission>
-   HungerEndSize:
-      description: This sets the end game size
-      usage: /<HungerEndSize> <X size> <Z size>
-      permission: <TSG_Hunger>.HungerEndSize
-      permission-message: You don't have <permission>
-   HungerDecay:
-      description: This sets the end game size
-      usage: /<HungerEndSize> <X size> <Z size>
-      permission: <TSG_Hunger>.HungerEndSize
-      permission-message: You don't have <permission>
-   HungerDelayTick:
-      description: This sets the end game size
-      usage: /<HungerEndSize> <X size> <Z size>
-      permission: <TSG_Hunger>.HungerEndSize
-      permission-message: You don't have <permission>
+main: BetterCauldrons.BetterCauldrons
