@@ -35,16 +35,8 @@ import org.bukkit.scheduler.BukkitTask;
 import org.yaml.snakeyaml.Yaml;
 
 public class BetterCauldrons extends JavaPlugin implements Listener{
-	public static float SizeX = 100,SizeZ = 100;//The starting size from the scenter
-	float DecayTicks = 50;//How often the scheduled event happens
-	public static float Decay = 1;//How much the hunger box shrinks by each scheduled event
-	public static float MinX = 10;//The minimum the non hunger box can shrink to
-	public static float MinZ = 10;//The minimum the non hunger box can shrink to
-    public boolean Start = false;
-    BukkitTask Timersystem = null;
 	@Override
     public void onEnable() {
-    	this.getServer().getPluginManager().registerEvents(this, this);
     }
  
     @Override
